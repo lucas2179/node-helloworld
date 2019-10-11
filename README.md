@@ -119,7 +119,7 @@ Para isso, basta adicionarmos uma integração com o GitHub na nossa toolchain.<
 </div>
 3 - Clique em Authorize e faça login em sua conta do github para autorizar a integração<br>
 <div align="center">
-    <img width="750" src="Assets/authorize.png" />
+    <img width="750" src="Assets/authorize.PNG" />
     <p>Imagem 14: Authorize</p>
 </div>
 4 - Dê um nome para o repositório e crie a integração.<br>
