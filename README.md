@@ -28,7 +28,7 @@ Você deverá cumprir os seguintes itens:
 2 - Faça o login em sua conta<br>
 3 - No canto superior esquerdo, clique no menu de navegação e clique em `devops`.<br>
  <div align="center">
-    <img width="750" src="Assets/homecloud.PNG" />
+    <img width="750" src="Assets/homecloud.png" />
     <p>Imagem 1: IBM Cloud Home</p>
 </div>
 4 - Na tela de criação de toolchain, clique em `Create a Toolchain`. <br>
