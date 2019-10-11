@@ -28,27 +28,27 @@ Você deverá cumprir os seguintes itens:
 2 - Faça o login em sua conta<br>
 3 - No canto superior esquerdo, clique no menu de navegação e clique em `devops`.<br>
  <div align="center">
-    <img width="750" src="assets/homecloud.PNG" />
+    <img width="750" src="Assets/homecloud.PNG" />
     <p>Imagem 1: IBM Cloud Home</p>
 </div>
 4 - Na tela de criação de toolchain, clique em `Create a Toolchain`. <br>
  <div align="center">
-    <img width="750" src="assets/toolchains.PNG" />
+    <img width="750" src="Assets/toolchains.PNG" />
     <p>Imagem 2: Toolchains</p>
 </div>
 5 - Como podemos ver, podemos criar a nossa toolchain do zero, ou utilizar algum dos templates, como kubernetes e Cloud Foundry. Selecione Develop Cloud Foundry APP.
 <div align="center">
-    <img width="750" src="assets/create-toolchain.PNG" />
+    <img width="750" src="Assets/create-toolchain.PNG" />
     <p>Imagem 3: Creating a Toolchain</p>
 </div>
 6 - Dê um nome a sua toolchain, selecione uma região e um resource group.
  <div align="center">
-    <img width="750" src="assets/creation-1.PNG" />
+    <img width="750" src="Assets/creation-1.PNG" />
     <p>Imagem 4: Toolchain Configs</p>
 </div>
 7 - Em Git Repos and Issue Tracking, dê um nome ao seu repositorio.
  <div align="center">
-    <img width="750" src="assets/git.PNG" />
+    <img width="750" src="Assets/git.PNG" />
     <p>Imagem 5: Git Repos and Issue Tracking</p>
 </div>
 8 - Clique em  `Delivery Pipeline`, entao dê um nome para seu aplicativo.
@@ -56,7 +56,7 @@ Você deverá cumprir os seguintes itens:
 9 - Em API Key, clique em `Create`, para gerar uma nova API, e espere os campos seguintes carregarem.
 **OBS Caso não apareça automaticamente sua org e space, troque a region para Dallas**
  <div align="center">
-    <img width="750" src="assets/pipe.PNG" />
+    <img width="750" src="Assets/pipe.PNG" />
     <p>Imagem 6: Delivery Pipeline Config</p>
 </div>
 10 - Feito isso, no canto superior direito da tela, clique em Create. <br> Você será redirecionado para o Dashboard da sua Toolchain. Nesta página, temos 4 ferramentas: Issues, Git, Delivery Pipeline e Eclipse.
@@ -74,11 +74,11 @@ A toochain que criamos está integrada com o git, ou seja, quando uma alteraçã
 Para testar este processo, volte para o dashboard da toolchain. <br> <br>
 1 - primeiramente, vamos visualizar o Git que foi criado. Em code, clique em Git. Este é um Git próprio da IBM Cloud que é criado automáticamente com a nossa toolchain. Abrindo o arquivo manifest.yml, podemos ver as configurações necessárias para a nossa aplicação no Cloud Foundry.<br>
 <div align="center">
-    <img width="750" src="assets/toolchain.PNG" />
+    <img width="750" src="Assets/toolchain.PNG" />
     <p>Imagem 7: Toolchain</p>
 </div>
 <div align="center">
-    <img width="750" src="assets/ibmgit.PNG" />
+    <img width="750" src="Assets/ibmgit.PNG" />
     <p>Imagem 8: Git IBM Cloud</p>
 </div>
 
@@ -87,11 +87,11 @@ Para testar este processo, volte para o dashboard da toolchain. <br> <br>
 
 3 - Abra a pasta public, depois, abra o arquivo index.html. Altere onde está escrito Hello World para uma frase de sua preferência. <br>
 <div align="center">
-    <img width="750" src="assets/public.PNG" />
+    <img width="750" src="Assets/public.PNG" />
     <p>Imagem 9: Public dir</p>
 </div>
 <div align="center">
-    <img width="750" src="assets/Edit.PNG" />
+    <img width="750" src="Assets/Edit.PNG" />
     <p>Imagem 11: Edit</p>
 </div>
 
