@@ -33,7 +33,7 @@ Você deverá cumprir os seguintes itens:
 </div>
 4 - Na tela de criação de toolchain, clique em `Create a Toolchain`. <br>
  <div align="center">
-    <img width="750" src="Assets/toolchains.PNG" />
+    <img width="750" src="Assets/toolchains.png" />
     <p>Imagem 2: Toolchains</p>
 </div>
 5 - Como podemos ver, podemos criar a nossa toolchain do zero, ou utilizar algum dos templates, como kubernetes e Cloud Foundry. Selecione Develop Cloud Foundry APP.
@@ -98,7 +98,7 @@ Para testar este processo, volte para o dashboard da toolchain. <br> <br>
 4 - No canto superior esquerdo, clique em File > Save.<br>
 5 - Agora, precisamos validar nossa alteração no repositório para que a aplicação seja atualizada. Na aba a esquerda, clique no segundo icone. Ao carregar, podemos ver que a alteração já foi reconhecida, então, basta digitarmos uma mensagem e clicarmos em commit.<br>
 <div align="center">
-    <img width="750" src="assets/change.PNG" />
+    <img width="750" src="Assets/change.PNG" />
     <p>Imagem 12: Commit</p>
 </div>
 6 - Em outgoing, poderemos ver a alteração realizada. Clique em push e aguarde o processo ser sucedido.<br>
@@ -114,31 +114,31 @@ Para isso, basta adicionarmos uma integração com o GitHub na nossa toolchain.<
 1 - Novamente no Dashboard, clique em `ADD A TOOL`<br>
 2 - Adicione a ferramenta do GitHub.<br>
 <div align="center">
-    <img width="750" src="assets/addgithub.PNG" />
+    <img width="750" src="Assets/addgithub.PNG" />
     <p>Imagem 13: Ferramentas</p>
 </div>
 3 - Clique em Authorize e faça login em sua conta do github para autorizar a integração<br>
 <div align="center">
-    <img width="750" src="assets/Authorize.PNG" />
+    <img width="750" src="Assets/Authorize.PNG" />
     <p>Imagem 14: Authorize</p>
 </div>
 4 - Dê um nome para o repositório e crie a integração.<br>
 5 - Sua ferramenta já foi configurada, agora, precisamos configurar o nosso pipeline. Abra o Delivery Pipeline.<br>
 6 - Em Build, clique na engrenagem e selecione a opção Configure Stage <br>
 <div align="center">
-    <img width="750" src="assets/Configure-build.PNG" />
+    <img width="750" src="Assets/Configure-build.PNG" />
     <p>Imagem 15: Configuring Buid</p>
 </div>
 7 - Vá para a aba Input. <br>
 8 - Em Repositorio git, selecione o novo repositório criado. <br>
 9 - Clique em Salvar <br>
 <div align="center">
-    <img width="750" src="assets/build.PNG" />
+    <img width="750" src="Assets/build.PNG" />
        <p>Imagem 16</p>
 </div>
 10  - Exclua os antigos Gits <br>
 div align="center">
-    <img width="750" src="assets/exclude.PNG" />
+    <img width="750" src="Assets/exclude.PNG" />
        <p>Imagem 17: Excluindo o Git Antigo</p>
 </div>
 11 - Faça uma alteração no codigo do novo repositorio. <br>
