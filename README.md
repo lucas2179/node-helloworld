@@ -38,7 +38,7 @@ Você deverá cumprir os seguintes itens:
 </div>
 5 - Como podemos ver, podemos criar a nossa toolchain do zero, ou utilizar algum dos templates, como kubernetes e Cloud Foundry. Selecione Develop Cloud Foundry APP.
 <div align="center">
-    <img width="750" src="Assets/create-toolchain.PNG" />
+    <img width="750" src="Assets/create-toolchain.png" />
     <p>Imagem 3: Creating a Toolchain</p>
 </div>
 6 - Dê um nome a sua toolchain, selecione uma região e um resource group.
@@ -56,7 +56,7 @@ Você deverá cumprir os seguintes itens:
 9 - Em API Key, clique em `Create`, para gerar uma nova API, e espere os campos seguintes carregarem.
 **OBS Caso não apareça automaticamente sua org e space, troque a region para Dallas**
  <div align="center">
-    <img width="750" src="Assets/pipe.PNG" />
+    <img width="750" src="Assets/pipe.png" />
     <p>Imagem 6: Delivery Pipeline Config</p>
 </div>
 10 - Feito isso, no canto superior direito da tela, clique em Create. <br> Você será redirecionado para o Dashboard da sua Toolchain. Nesta página, temos 4 ferramentas: Issues, Git, Delivery Pipeline e Eclipse.
@@ -119,7 +119,7 @@ Para isso, basta adicionarmos uma integração com o GitHub na nossa toolchain.<
 </div>
 3 - Clique em Authorize e faça login em sua conta do github para autorizar a integração<br>
 <div align="center">
-    <img width="750" src="Assets/Authorize.PNG" />
+    <img width="750" src="Assets/Authorize.png" />
     <p>Imagem 14: Authorize</p>
 </div>
 4 - Dê um nome para o repositório e crie a integração.<br>
